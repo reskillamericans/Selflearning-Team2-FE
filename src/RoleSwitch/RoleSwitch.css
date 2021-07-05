@@ -1,0 +1,14 @@
+/* #180126--background BLACK 
+#FFFFFF--white PRIMARYTEXT 
+#CCCCCC--gray Secondary, tertiarytext, navbar icons, borders
+#FFC914--yellow primary color, selected navbar icon, button
+#004E89--lightblue secondary color, accent color, notification */
+
+/* Rectangle 3 */
+
+
+@media screen and (max-width: 600px) {
+    .main-nav-bar{
+        display:none; 
+    }
+  }
