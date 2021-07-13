@@ -1,0 +1,64 @@
+.about-left-side {
+    width: 635px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.about-right-side {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    background-color: #180126;
+    width: 805px;
+    height: auto; 
+  
+}
+
+.hands {
+    width: 635px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+  .logo5 {
+      margin: 40px 0;
+      width: 120px;
+      height: auto;
+  }
+
+  .team {
+      margin: 35px 0 10px;
+      width: 90%;
+      height: auto;
+  }
+
+  @media (max-width: 500px) {
+    .about-right-side {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: white;
+        background-color: #180126;
+        width: 375px;
+        height: 812px;
+    }
+
+    .about-left-side {
+        display: none;
+    }
+}
+
+ 
+
+
+    
+
+    
+
+
