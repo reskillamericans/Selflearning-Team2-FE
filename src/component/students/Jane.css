@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "rubik";
+  background-color: #180126;
+}
+
+body {
+  position: relative;
+  font-size: 13px;
+}
+
+.welcome {
+  position: relative;
+  padding-top: 180px;
+  font-style: normal;
+  font-weight: 500px;
+  line-height: 0.8rem;
+  color: #cccccc;
+  justify-content: center;
+  text-align: center;
+}
+
+.welcome img {
+  color: #cccccc;
+  width: 50px;
+  margin-right: 10px;
+}
+
+form .user-details .input-box {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width:30%;
+  margin:1em auto;
+  border-style: none;
+}
+
+input[type="text"] {
+  width: 296px;
+  justify-content: space-between;
+  display: block;
+  padding: 8px;
+  margin: 3px 3px 3px 1px;
+  border-style: solid;
+}
+
+main {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  background-color: #180126;
+}
+
+.stdnt-info p {
+  position: relative;
+  padding-top: 35px;
+  font-style: normal;
+  font-weight: 500px;
+  line-height: 0.8rem;
+  color: #cccccc;
+  justify-content: center;
+  text-align: center;
+}
+
+.user-details {
+  padding: 40px;
+  font-size: 13px;
+  color: #cccccc;
+  text-align: left;
+  box-sizing: border-box;
+}
+
+footer {
+  justify-content: space-around;
+}
+
+footer a {
+  color: #ffd84c;
+  justify-content: space-around;
+}
+
+.link a {
+  color: #ffd84c;
+  font-size: 12px;
+  text-align: left;
+}
+
+.btn {
+  position: relative;
+  background-color: #ffd84c;
+  width: 150px;
+  font-size: 8px;
+  height: 20px;
+  border-radius: 50px;
+  border-style: none;
+  justify-items: center;
+  justify-content: space-around;
+}
+
+.btn:hover {
+  background-color: darkorchid;
+  cursor: pointer;
+}
+
+@media all and (max-device-width: 800px) {
+  .welcome {
+    position: relative;
+    padding-top: 50px;
+    font-style: normal;
+    font-weight: 500px;
+    line-height: 0.8rem;
+    color: #cccccc;
+    justify-content: center;
+    text-align: center;
+  }
+
+  form .user-details .input-box {
+    align-items: left;
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: left;
+    text-align: left;
+  }
+
+  input[type="text"] {
+    align-items: left;
+  }
+
+  .stdnt-info p {
+    position: relative;
+    padding-top: 2px;
+    font-size: 17px;
+    font-weight: 500px;
+    line-height: 1.2rem;
+    color: #cccccc;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .link a {
+    color: #ffd84c;
+    font-size: 12px;
+    text-align: left;
+  }
+}

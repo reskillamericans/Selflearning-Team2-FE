@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "rubik";
+  }
+
+  body {
+    position: relative;
+    font-size: 12px;
+  }
+
+  .mentor {
+    position: relative;
+    padding-top: 180px;
+    font-style: normal;
+    font-weight: 500px;
+    line-height: 0.8rem;
+    color: white;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .mentor img {
+    color: whitesmoke;
+    width: 50px;
+    margin-right: 10px;
+  }
+
+  .select {
+    color: #ccc;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+
+  .mentor1{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .mentor1 a{
+    display: inline-flex;
+    font-size: 15px;
+    padding-top: .5em;
+  }
+
+.mentor-profile ul{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.mentor-profile a{
+  display: inline-block;
+  margin-right: 38px;
+  margin-left: 38px;
+  color: #ccc;
+  
+}
+
+h5, 
+p{
+  color: white;
+}
+
+footer {
+  justify-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.btn{
+  padding-bottom: 15px;
+}
+
+.btn:hover {
+  background-color: darkorchid;
+  cursor: pointer;
+}
+
+@media all and (max-device-width: 800px) {
+  .mentor {
+    position: relative;
+    padding-top: 70px;
+    font-style: normal;
+    color: white;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .mentor-profile ul{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+  footer {
+
+    padding-bottom: 25px;
+  }
+
+}
+
