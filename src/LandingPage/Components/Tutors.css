@@ -32,67 +32,62 @@
 } */
 
 .tutors-left-side {
-    width: 635px;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    background-image: url(./pics/bookperson.png);
-    background-size: cover;
-    background-repeat: no-repeat;
+  width: 635px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-image: url(./pics/bookperson.png);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-
 .tutors-right-side {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: white;
-    background-color: #180126;
-    width: 805px;
-    height: auto; 
-  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  background-color: #180126;
+  width: 805px;
+  height: auto;
 }
 
 .group {
-
-    margin-top: 90px;
+  margin-top: 90px;
 }
 
-.sign a{
-    margin: 30px;
-    font-weight: bold;
-    text-decoration: none;
+.sign a {
+  margin: 30px;
+  font-weight: bold;
+  text-decoration: none;
 }
 
 .logo3 {
-    margin: 40px 0;
-    width: 120px;
-    height: auto;
+  margin: 40px 0;
+  width: 120px;
+  height: auto;
 }
 
 .sign .signup {
-    color:#ffc914 ;
-    
+  color: #ffc914;
 }
 
 .sign .signin {
-    color: #cccccc;
+  color: #cccccc;
 }
-
 
 element.style {
 }
 .tutors-right-side {
-    display: flex; 
-    flex-direction: column;
-    align-items: center;
-    color: white;
-    background-color: #180126;
-    width: 805px;
-    /* /* height: auto; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  background-color: #180126;
+  width: 805px;
+  /* /* height: auto; */
 }
 @media (max-width: 500px) {
-.tutors-right-side {
+  .tutors-right-side {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -100,11 +95,9 @@ element.style {
     background-color: #180126;
     width: 375px;
     height: 812px;
-}
+  }
 
-.tutors-left-side {
-    display: none
-}
-
-
+  .tutors-left-side {
+    display: none;
+  }
 }
