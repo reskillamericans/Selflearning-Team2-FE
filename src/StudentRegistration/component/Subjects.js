@@ -1,6 +1,6 @@
 import React from "react";
 import "./Subjects.css";
-import M from "../../images/M.png";
+import M from "./images/M.png";
 
 export default function Subjects() {
   return (

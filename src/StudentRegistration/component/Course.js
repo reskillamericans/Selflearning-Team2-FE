@@ -1,18 +1,18 @@
 import React from "react";
 import "./Course.css";
-import M from "../../images/M.png";
-import HTML from "../../images/HTML.png";
-import Algorithm from "../../images/Algorithm.png";
-import CSS from "../../images/CSS.png";
-import API from "../../images/API.png";
-import Security from "../../images/Security.png";
-import Audits from "../../images/Audits.png";
-import Testing from "../../images/Testing.png";
-import Javascript from "../../images/Javascript.png";
-import Component from "../../images/Component.png";
-import BuildTools from "../../images/BuildTools.png";
-import Frameworks from "../../images/Frameworks.png";
-import Collaboration from "../../images/Collaboration.png";
+import M from "./images/M.png";
+import HTML from "./images/HTML.png";
+import Algorithm from "./images/Algorithm.png";
+import CSS from "./images/CSS.png";
+import API from "./images/API.png";
+import Security from "./images/Security.png";
+import Audits from "./images/Audits.png";
+import Testing from "./images/Testing.png";
+import Javascript from "./images/Javascript.png";
+import Component from "./images/Component.png";
+import BuildTools from "./images/BuildTools.png";
+import Frameworks from "./images/Frameworks.png";
+import Collaboration from "./images/Collaboration.png";
 
 export default function Course() {
   return (

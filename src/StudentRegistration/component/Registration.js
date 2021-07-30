@@ -1,5 +1,5 @@
 import React from "react";
-import M from "../../images/M.png";
+import M from "./images/M.png";
 import "./Registration.css";
 
 export default function Registration() {

@@ -1,7 +1,7 @@
 import React from "react";
-import M from "../../images/M.png";
+import M from "./images/M.png";
 import "./Jane.css";
-import cross from '../../images/cross.png'
+
 
 export default function Jane() {
   return (
