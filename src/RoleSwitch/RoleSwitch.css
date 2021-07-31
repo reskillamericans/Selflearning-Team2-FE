@@ -6,9 +6,8 @@
 
 /* Rectangle 3 */
 
-
 @media screen and (max-width: 600px) {
-    .main-nav-bar{
-        display:none; 
-    }
+  .main-nav-bar {
+    display: none;
   }
+}

@@ -1,205 +1,179 @@
-.container {  
-    display: flex;
-    flex-direction: row;
-    height: 100vh;
-    width: 1440px;
- 
-      
+.home_container {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  width: 1440px;
 }
 
- .home-left-side {
-    width: 635px;
+.home-left-side {
+  width: 635px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-image: url(./pics/bookperson.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.top-left-text {
+  color: black;
+  font-weight: 700;
+  font-size: 19px;
+  margin-top: 100px;
+  margin-left: 180px;
+}
+
+.home-right-side {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  background-color: #180126;
+  width: 805px;
+  height: auto;
+}
+
+.logo1 {
+  max-width: 180px;
+  width: 120px;
+  height: auto;
+  margin-top: 7px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 19px;
+  font-weight: 700;
+  margin: 110px;
+}
+
+.content .logo1 {
+  padding: 10px;
+}
+
+.logo2 {
+  width: 50px;
+  height: auto;
+  padding-top: 20px;
+}
+
+.btn {
+  width: 296px;
+  height: 40px;
+  border-radius: 50px;
+  background-color: #ffc914;
+  color: #180126;
+  font-size: 14px;
+  font-weight: 700;
+  border: none;
+  margin-top: 65px;
+}
+
+.registered a {
+  color: #ffc914;
+  text-decoration: none;
+  font-size: 19px;
+  display: block;
+  margin-top: 45px;
+}
+
+.tutors a {
+  color: #cccccc;
+  text-decoration: none;
+  font-size: 19px;
+  margin-top: 70px;
+  display: block;
+}
+
+.btn:hover {
+  color: #ffc914;
+  background-color: #180126;
+  cursor: pointer;
+  border: 3px solid #ffc914;
+}
+
+.about-link a {
+  display: none;
+}
+
+@media all and (max-width: 500px) {
+  .btn {
+    width: 296px;
+    height: 40px;
+  }
+
+  .navbar .links {
+    display: none;
+  }
+
+  .home_container {
+    display: flex;
+    flex-direction: column;
     height: 100vh;
+    width: 375px;
+  }
+
+  .home-left-side {
+    width: 375px;
+    height: 460px;
+    overflow: hidden;
     display: flex;
     flex-direction: column;
     background-image: url(./pics/bookperson.png);
-    background-size: cover;
+    background-size: 375px;
+    width: 375px;
+    height: 625px;
     background-repeat: no-repeat;
-    
-}
-
-.top-left-text{
-
-    color: black;
-    font-weight: 700;
-    font-size: 19px;
-    margin-top: 100px;
-    margin-left: 180px;
-}
-
-
-  .home-right-side {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      color: white;
-      background-color: #180126;
-      width: 805px;
-      height: auto; 
-    
+    margin-top: -148px;
   }
 
-  .logo1 {
-      max-width: 180px;
-      width: 120px;
-      height: auto;
-      margin-top: 7px;
-  }
-
- .content {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      font-size: 19px;
-      font-weight: 700;
-      margin: 110px;
-
-  }
-
-  .content .logo1 {
-      padding: 10px;
-     
-  }
-
-  .logo2 {
-      width: 50px;
-      height: auto;
-      padding-top: 20px;
-  }
-
-  .btn {
-      width: 296px;
-      height: 40px;
-      border-radius: 50px;
-      background-color: #ffc914;
-      color: #180126 ;
-      font-size: 14px;
-      font-weight:700;
-      border: none;
-      margin-top: 65px;
-  }
-
-  .registered a{
-      color: #ffc914;
-      text-decoration: none;
-      font-size: 19px;
-      display: block;
-      margin-top: 45px;
-  }
-
-  .tutors  a{
-    color: #cccccc;
-    text-decoration: none;
-    font-size: 19px;
-    margin-top: 70px;
-    display: block;
-
-  }
-
-  .btn:hover {
-    color: #ffc914;
-    background-color: #180126;
-    cursor: pointer;
-    border: 3px solid #ffc914;
-
-  }
-
-  .about-link a{
-      display: none;
-  }
-
-  
-@media all and (max-width: 500px) {
-    .btn {
-    width: 296px;
-    height: 40px;
-       
-    }
-
-    .navbar .links {
-        display: none;
-    }
-
-    .container {  
-        display: flex;
-        flex-direction: column;
-        height: 100vh;
-        width: 375px
-          
-    }
-
-    .home-left-side {
-        width: 375px;
-        height: 460px;
-        overflow: hidden;
-        display: flex;
-        flex-direction: column;
-        background-image: url(./pics/bookperson.png);
-        background-size: 375px;
-        width: 375px;
-        height: 625px;
-        background-repeat: no-repeat;
-        margin-top: -148px;
-        
-    }
-
-    .top-left-text {
+  .top-left-text {
     color: black;
     font-weight: 700;
     font-size: 19px;
     position: absolute;
     top: 65px;
     left: -150px;
-    }
+  }
 
-    .home-right-side {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        color: white;
-        background-color: #180126;
-        width: 375px;
-        height: 456px; 
-    }
+  .home-right-side {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    background-color: #180126;
+    width: 375px;
+    height: 456px;
+  }
 
-   
-    .content {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        font-size: 19px;
-        font-weight: 700;
-        margin-top: -185px;
-  
-    }
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 19px;
+    font-weight: 700;
+    margin-top: -185px;
+  }
 
-    .tutors a {
-        color: #cccccc;
-        text-decoration: none;
-        font-size: 16px;
-        padding: 27px;
-        margin-top: -8px;
-        font-weight: 600;
-    }
+  .tutors a {
+    color: #cccccc;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 27px;
+    margin-top: -8px;
+    font-weight: 600;
+  }
 
-    .about-link a{
-        display: flex;
-        color: #cccccc;
-        text-decoration: none;
-        font-size: 14px;
-        font-weight: 600;
-        margin-top: 25px;
-    }
-
-    
-
-    
-
-   
-      
-
+  .about-link a {
+    display: flex;
+    color: #cccccc;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 25px;
+  }
 }
-
-  

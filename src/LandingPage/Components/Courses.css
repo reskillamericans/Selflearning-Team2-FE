@@ -1,62 +1,59 @@
 .courses-left-side {
-    width: 635px;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    background-image: url(./pics/bookperson.png);
-    background-size: cover;
-    background-repeat: no-repeat;
+  width: 635px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-image: url(./pics/bookperson.png);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .courses-right-side {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  background-color: #180126;
+  width: 805px;
+  height: auto;
+}
+
+.coursesgroup {
+  margin-top: 50px;
+}
+
+.sign a {
+  margin: 30px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.logo4 {
+  margin: 40px 0;
+  width: 120px;
+  height: auto;
+}
+
+.sign .signup {
+  color: #ffc914;
+}
+
+.sign .signin {
+  color: #cccccc;
+}
+
+@media (max-width: 500px) {
+  .courses-right-side {
     display: flex;
     flex-direction: column;
     align-items: center;
     color: white;
     background-color: #180126;
-    width: 805px;
-    height: auto; 
-  
-}
+    width: 375px;
+    height: 812px;
+  }
 
-.coursesgroup {
-    margin-top: 50px;
-    
-}
-
-.sign a{
-    margin: 30px;
-    font-weight: bold;
-    text-decoration: none;
-}
-
-.logo4 {
-    margin: 40px 0;
-    width: 120px;
-    height: auto;
-}
-
-.sign .signup {
-    color:#ffc914 ;
-    
-}
-
-.sign .signin {
-    color: #cccccc;
-}
-
-@media (max-width: 500px) {
-    .courses-right-side {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        color: white;
-        background-color: #180126;
-        width: 375px;
-        height: 812px;
-    }
-
-    .courses-left-side {
-        display: none;
-    }
+  .courses-left-side {
+    display: none;
+  }
 }
