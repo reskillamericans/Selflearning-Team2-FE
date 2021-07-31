@@ -4,7 +4,6 @@ import Home from './LandingPage/Components/Home';
 import Tutors from './LandingPage/Components/Tutors';
 import Courses from './LandingPage/Components/Courses';
 import About from './LandingPage/Components/AboutUs';
-import Nav from './StudentRegistration/component/Nav'
 import Registration from './StudentRegistration/component/Registration'
 import Jane from './StudentRegistration/component/Jane'
 import Course from './StudentRegistration/component/Course'
