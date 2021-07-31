@@ -1,7 +1,7 @@
 import React from "react";
 import "./Welldone.css"
-import M from "../../images/M.png";
-import Done from "../../images/Done.png";
+import M from "./images/M.png";
+import Done from "./images/Done.png";
 
 
 export default function Welldone() {
