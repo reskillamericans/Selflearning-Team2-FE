@@ -18,10 +18,6 @@ function App() {
   return (
     <Router>
       <>
-      <div>
-      <Nav />
-      </div>
-        
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/Registration"  component={Registration} /> 
