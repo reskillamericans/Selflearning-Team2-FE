@@ -33,24 +33,23 @@ body {
   color: #180218;
   padding-top: 35px;
   padding-bottom: 35px;
-  padding-left: 80px;
-  padding-right: 80px;
+  padding-left: 45px;
+  padding-right: 45px;
   justify-content: space-around;
-  justify-items: auto;
   width: auto;
   height: auto;
-  margin-left: 280px;
-  margin-right: 280px;
+  margin-left: 200px;
+  margin-right: 200px;
   border-radius: 5px;
 }
 
 .line1,
 .line2 {
   display: flex;
-  justify-content: space-evenly;
+  flex-wrap: wrap;
+  justify-content: space-around;
   background-color: #ccc;
-  height: 10vh;
-  padding-top: 5px;
+  height: auto;
 }
 
 h6 {
@@ -204,7 +203,7 @@ input [type="checkbox"] {
   cursor: pointer;
 }
 
-@media all and (max-device-width: 930px) {
+@media all and (max-device-width: 800px) {
   .courses p {
     color: #cccccc;
     text-align: center;
@@ -221,15 +220,10 @@ input [type="checkbox"] {
   }
 
   .container1 {
+    display: block;
     background-color: #ccc;
     color: #180218;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 9px;
-    padding-right: 9px;
-    justify-content: space-evenly;
-    justify-items: auto;
-    width: auto;
+    justify-content: space-around;
     height: auto;
     margin-left: 55px;
     margin-right: 55px;
@@ -239,40 +233,9 @@ input [type="checkbox"] {
   .line1,
   .line2 {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
     background-color: #ccc;
-    height: 60vh;
-    margin-left: 44px;
-    margin-right: 40px;
-  }
-
-  .line1 {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    background-color: #ccc;
-    height: 50vh;
-    padding-top: 8px;
-    margin-left: 20px;
-    margin-right: 20px;
-    padding-left: 1px;
-    padding-right: 1px;
-  }
-
-  .line2 {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    background-color: #ccc;
-    height: 45vh;
-    margin-left: 10px;
-    margin-right: 1px;
-    padding-left: 1px;
-    padding-right: 1px;
-    padding-bottom: 8px;
+    height: auto;
   }
 }
