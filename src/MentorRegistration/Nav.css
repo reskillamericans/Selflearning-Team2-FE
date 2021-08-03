@@ -1,0 +1,46 @@
+
+
+.mentor-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    background-color: #180126;
+    color: white;
+    padding: 15px 0 0 70px;
+    max-width: 100%;
+    
+}
+
+
+.mentor-navbar a {
+    text-decoration: none;
+    padding: 6px;
+    padding-right: 50px;
+    color:#ccc;
+    float: right;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+img.mobile_logo {
+    display: none;
+}
+
+@media all and (max-width:650px) {
+    img.logo1 {
+        display: none;
+
+    }
+
+    img.mobile_logo {
+        display: block;
+        width: 25px;
+        height: 25px;
+    }
+
+    .mentor-navbar a {
+        font-size: .8rem;
+        padding-right: 30px;
+
+    }
+}

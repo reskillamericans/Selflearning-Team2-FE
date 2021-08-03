@@ -1,0 +1,63 @@
+
+
+.mentor-welcome {
+    color: #cccccc;
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: center;
+    padding-left: 30px;
+    position: relative;
+    bottom: 24px;
+}
+.mentor-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mentor-welcome-title {
+    position: relative;
+    bottom: 100px;
+}
+
+
+.select-course {
+    color: #cccccc;
+    font-size: 19px;
+    font-weight: 500;
+    position: relative;
+    bottom: 55px;
+    
+}
+
+.select_courses_next-btn{
+    display: block;
+    width: 296px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: #ffc914;
+    color: #180126;
+    font-size: 14px;
+    font-weight: 700;
+    border: none;
+    margin: 0 auto;
+    position: relative;
+    bottom: -10px;
+}
+
+img.mobile_courses-pic {
+    display: none;
+}
+
+@media all and (max-width:600px) {
+    img.mobile_courses-pic {
+        display: block;
+        justify-content: center;
+    }
+
+    img.courses-pic {
+        display: none;
+    }
+}
