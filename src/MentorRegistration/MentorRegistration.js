@@ -35,7 +35,7 @@ function MentorRegistration() {
                         </div>
                     </div>
                     <div className="button">
-                    <Link to="/selectcourses"><button className="register-btn" ><img src={user_icon } className="user_icon" /> Register</button></Link>
+                    <Link to="/selectcourses"><button className="register-btn" ><img src={user_icon } alt="small user icon"  className="user_icon" /> Register</button></Link>
                     </div>
                     
                 </form>

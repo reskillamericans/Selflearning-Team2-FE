@@ -19,19 +19,19 @@ function Channels() {
                     <div className="mentor-details">
                         <div className="Channels_input-box">
                             <span className="details">Twitter</span>
-                            <input type="text" placeholder="@username" required/><img src={minusCircle} className="minuscircle" />
+                            <input type="text" placeholder="@username" required/><img src={minusCircle} alt="small circle icon"  className="minuscircle" />
                         </div>
                         <div className="Channels_input-box">
                             <span className="details">Whatsapp</span>
-                            <input type="tel" placeholder="+1 XXX XXX XXXX" required/><img src={minusCircle} className="minuscircle" />
+                            <input type="tel" placeholder="+1 XXX XXX XXXX" required/><img src={minusCircle} alt="small circle icon"  className="minuscircle" />
                         </div>
                         <div className="Channels_input-box">
                             <span className="details">Email</span>
-                            <input type="email" placeholder="user@domain.com" required /><img src={minusCircle} className="minuscircle" />
+                            <input type="email" placeholder="user@domain.com" required /><img src={minusCircle} alt="small circle icon"  className="minuscircle" />
                         </div>
                         <div className="Channels_input-box">
                             <span className="details">Email(2)</span>
-                            <input type="email" placeholder="user@domain.com" required/><img src={minusCircle} className="minuscircle" />
+                            <input type="email" placeholder="user@domain.com" required/><img src={minusCircle} alt="small circle icon" className="minuscircle" />
                         </div>
                     </div>
                     <div className="more_channels">+ Add More Channels</div>
