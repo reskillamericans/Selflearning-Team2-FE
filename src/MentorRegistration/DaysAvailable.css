@@ -1,0 +1,61 @@
+
+
+.mentor-welcome-title_days {
+    color: #cccccc;
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: center;
+    padding-left: 30px;
+    position: relative;
+    bottom: 75px;
+}
+
+.select-days {
+    color: #cccccc;
+    font-size: 19px;
+    font-weight: 500;
+    position: relative;
+    bottom: 30px;
+    text-align: center;
+}
+
+.days_available_next-btn{
+    display: block;
+    width: 296px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: #ffc914;
+    color: #180126;
+    font-size: 14px;
+    font-weight: 700;
+    border: none;
+    margin: 0 auto;
+    position: relative;
+    bottom: -22px;
+}
+
+img.mobile_days-pic {
+    display: none;
+}
+
+
+@media all and (max-width:600px) {
+    img.mobile_days-pic {
+        display: block;
+        justify-content: center;
+    }
+
+    img.days-pic {
+        display: none;
+    }
+}
+
+@media all and (max-width:768px) {
+
+    img.days-pic {
+        /* display: block; */
+        max-width: 100%;
+        height: auto;
+    }
+}

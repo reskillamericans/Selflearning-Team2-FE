@@ -1,0 +1,209 @@
+.channels_text {
+    color: #cccccc;
+    font-size: 19px;
+    font-weight: 500;
+    position: relative;
+    bottom: 30px;
+    text-align: center;
+}
+
+
+.mentor-container {
+    max-width: 768px;
+    width: 100%;
+    padding: 25px 30px;
+}
+
+img.mlogo {
+    width: 55px;
+    height: auto;
+
+}
+
+form .mentor-details .Channels_input-box {
+    width: calc(100% / 2 - 20px);
+
+}
+
+.title {
+    color: #cccccc;
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: center;
+    padding-bottom: 25px; 
+    
+}
+
+.mentor-title {
+    padding: 0 0 0 30px;
+    position: relative;
+    bottom: 24px;
+}
+
+.mentor-container form .mentor-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.provide-info {
+    color: #cccccc;
+    font-size: 19px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 55px;
+    position: relative;
+    top: -25px;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+input {
+    background-color: #180126;
+    border-radius: 4px;
+    outline: none;
+    border: #cccccc solid 1px;
+    height: 40px;
+    width: 296px;
+    margin-bottom: 5px;
+    color: #A7C4E0;
+   
+    
+}
+
+.Channels_input-box input {
+    background-image: url(./xvector.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-origin: content-box;
+    padding-right: 10px;
+   
+}
+
+img.minuscircle  {
+    position: relative;
+    top: 7px;
+    left: 5px;
+}
+
+.details {
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+}
+ ::placeholder {
+    color: #A7C4E0;
+    padding: 0 5px;
+}
+
+.conclude-btn{
+    display: block;
+    width: 296px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: #ffc914;
+    color: #180126;
+    font-size: 14px;
+    font-weight: 700;
+    border: none;
+    margin: 0 auto;
+    position: relative;
+    top: 60px;
+     
+}
+
+.already-registered a {
+    color: #ffc914;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    position: relative;
+    top: 90px;
+    display: flex;
+    justify-content: center;
+   
+}
+
+ .details {
+    text-align: left;
+}
+
+.more_channels {
+    color: #ffc914;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    position: relative;
+    top: 30px;
+
+}
+
+.mentor-welcome_mike {
+    color: #cccccc;
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: center;
+    padding-left: 30px;
+    position: relative;
+    bottom: -8px;
+}
+
+.prefer_channels_text {
+    display: none;
+}
+
+
+
+
+
+@media all and (max-width:420px) {
+   
+    .title_container {
+        max-width: 75%;
+    }
+
+    img.mlogo {
+        display: none;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mentor-container form .mentor-details {
+        display: flex;
+        flex-direction: column;
+    }
+
+    img.minuscircle {
+        position: relative;
+        top: -36px;
+        left: 305px;
+        display: block;
+    }
+
+    .prefer_channels_text{
+        display: block;
+        color: #cccccc;
+        font-size: 19px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: center;
+        padding-left: 30px;
+        position: relative;
+        bottom: -15px;
+
+    }
+
+    .mentor-welcome_mike {
+        display: none;
+    }
+}
