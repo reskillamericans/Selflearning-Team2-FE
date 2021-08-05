@@ -1,0 +1,278 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "rubik";
+}
+
+body {
+  position: relative;
+  font-size: 10px;
+}
+
+.crs-selection {
+  position: relative;
+  padding-top: 180px;
+  font-style: normal;
+  color: #ccc;
+  justify-content: center;
+  text-align: center;
+}
+
+.crs-selection img {
+  width: 50px;
+  margin-right: 10px;
+}
+
+.courses {
+  color: #cccccc;
+  text-align: center;
+}
+
+.container1 {
+  background-color: #ccc;
+  color: #180218;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  padding-left: 80px;
+  padding-right: 80px;
+  justify-content: space-around;
+  justify-items: auto;
+  width: auto;
+  height: auto;
+  margin-left: 280px;
+  margin-right: 280px;
+  border-radius: 5px;
+}
+
+.line1,
+.line2 {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #ccc;
+  height: 10vh;
+  padding-top: 5px;
+}
+
+h6 {
+  background-color: #ccc;
+  padding-top: 10px;
+  font-size: 12px;
+  font-weight: lighter;
+}
+
+.html {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ccc;
+  color: #004e89;
+}
+
+.Algorithm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ccc;
+  color: #004e89;
+}
+
+.CSS {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ccc;
+  color: #004e89;
+}
+
+.API {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ccc;
+  color: #004e89;
+}
+
+.API h6 {
+  padding-top: 23px;
+}
+
+.Security {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ccc;
+  color: #004e89;
+}
+
+.Security h6 {
+  padding-top: 15px;
+}
+
+.Audits {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ccc;
+  color: #004e89;
+}
+
+.Audits h6 {
+  padding-top: 18px;
+}
+
+.Testing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ccc;
+  color: #004e89;
+}
+
+.Javascript {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ccc;
+  color: #004e89;
+}
+
+.Javascript h6 {
+  padding-top: 22px;
+}
+
+.Component {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ccc;
+  color: #004e89;
+}
+
+.Component h6 {
+  padding-top: 10px;
+}
+
+.BuildTools {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ccc;
+  color: #004e89;
+}
+
+.BuildTools h6 {
+  padding-top: 23px;
+}
+
+.Frameworks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ccc;
+  color: #004e89;
+}
+
+.Frameworks h6 {
+  padding-top: 23px;
+}
+
+.Collaboration {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ccc;
+  color: #004e89;
+}
+
+.Collaboration h6 {
+  padding-top: 17px;
+}
+
+.container h6 {
+  background-color: #ccc;
+  font-size: 10px;
+  font-weight: lighter;
+}
+
+input [type="checkbox"] {
+  position: relative;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: darkorchid;
+  cursor: pointer;
+}
+
+@media all and (max-device-width: 930px) {
+  .courses p {
+    color: #cccccc;
+    text-align: center;
+    padding-left: 23px;
+    padding-right: 23px;
+  }
+  .crs-selection {
+    position: relative;
+    padding-top: 50px;
+    font-style: normal;
+    color: #ccc;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .container1 {
+    background-color: #ccc;
+    color: #180218;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    justify-content: space-evenly;
+    justify-items: auto;
+    width: auto;
+    height: auto;
+    margin-left: 55px;
+    margin-right: 55px;
+    border-radius: 5px;
+  }
+
+  .line1,
+  .line2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #ccc;
+    height: 60vh;
+    margin-left: 44px;
+    margin-right: 40px;
+  }
+
+  .line1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #ccc;
+    height: 50vh;
+    padding-top: 8px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 1px;
+    padding-right: 1px;
+  }
+
+  .line2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #ccc;
+    height: 45vh;
+    margin-left: 10px;
+    margin-right: 1px;
+    padding-left: 1px;
+    padding-right: 1px;
+    padding-bottom: 8px;
+  }
+}

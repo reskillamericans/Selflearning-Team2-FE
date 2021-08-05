@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #180126;
+}
+
+body{
+    font-family: 'Rubik', sans-serif;
+    color: #CCCCCC;
+}
+
+.logo1{
+    position: absolute;
+    width: 160px;
+    top: 20px;
+    left: 25px;
+}
+
+nav{
+    position: absolute;
+    display: inline-block;
+    top: 20px;
+    left: 1700px;
+    font-size: 16px;
+}
+
+header{
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: 150px;
+    left: 650px;
+    top: 60px;
+}
+
+header h2{
+    position: relative;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: -0.02px;
+    top: 2px;
+    left: 20px;
+}
+
+.login{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 150px;
+    top: 50px;
+    left: px;
+}
+
+.login h2{
+    align-items: center;
+    color: #CCCCCC;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+form{
+    margin-top: 30px;
+    
+}
+
+label{
+    color: #CCCCCC;
+    line-height: 2px;
+    font-size: 14px;
+}
+
+
+input{
+    display: flex;
+    width: 300px;
+    height: 40px;
+    border-radius: 4px;
+    border-color:  #C3C7D2 ;
+    border-style: solid;
+}
+
+.login p{
+    color: #FFD84C;
+    font-size: 14px;
+    margin-top: 15px;
+    margin-right: 100px;
+ 
+}
+
+
+.button img{
+    position: relative;
+    left: 105px;
+    top: 8px;
+    background-color: #FFD84C;
+}
+
+button{
+    background: #FFD84C;
+    border-style: none;
+    width: 300px;
+    height: 40px;
+    margin-top: 40px;
+    margin-right: 20px;
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+
+}

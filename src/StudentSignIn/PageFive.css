@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #180126;
+}
+
+body{
+    font-family: 'Rubik', sans-serif;
+    color: #CCCCCC;
+}
+
+.logo1{
+    position: absolute;
+    width: 160px;
+    top: 20px;
+    left: 25px;
+}
+
+nav{
+    font-size: 16px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.navbar {
+    list-style: none;
+    margin-left: 1550px;
+    margin-top: 25px;
+}
+
+.navbar li {
+	display: inline-block;
+	padding: 0px 20px;
+}
+
+
+
+header{
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: 150px;
+    left: 659px;
+    top: 10px;
+}
+
+header h2{
+    position: relative;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: -0.02px;
+    bottom: 5px;
+    left: 20px;
+}
+
+header a{
+    position: absolute;
+    color: #FFD84C;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 40px;
+    margin-left: 90px;
+}
+
+.message{
+    position: relative;
+    bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    text-align: center;
+    justify-content: space-evenly;
+    font-family: 'Rubik', sans-serif;
+}
+
+.message h2{
+    align-items: center;
+    margin-bottom: 100px;
+    color: #CCCCCC;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    font-family: 'Rubik', sans-serif;
+}
+
+
+
+.message p{
+    color: #FFD84C;
+    font-size: 14px;
+    margin-top: 25px;
+    margin-right: 100px;
+    font-family: 'Rubik', sans-serif;
+ 
+}
+
+.message img{
+    margin-top: 15px;
+}
+
+
+
+button{
+    background: #FFD84C;
+    border-style: none;
+    width: 300px;
+    height: 40px;
+    margin-top: 100px;
+    margin-left: 20px;
+    border-radius: 50px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.button p{
+    margin-top: 20px;
+    margin-left: 120px;
+}
