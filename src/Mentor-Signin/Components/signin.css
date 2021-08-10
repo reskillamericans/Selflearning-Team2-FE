@@ -1,0 +1,128 @@
+:root{ 
+    --blue: #180126;
+    --yellow:#FFD84C;
+
+}
+
+*{ 
+    margin:0; 
+    padding:0;
+}
+
+body{ 
+  
+    background-color:var(--blue);
+
+}
+
+.signin-title{ 
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.signin-title img{ 
+    margin-right:12px;
+}
+
+.container{ 
+   width:20em;
+   padding:1em;
+   margin:9em auto;
+   color:white;
+    
+} 
+
+
+img{ /*logo image*/
+    height:35px;  
+}
+
+.interactive p{ 
+    margin-top:5em;
+}
+
+.fill-in{ 
+    margin-left:3em;
+   
+  
+}
+
+
+.fill-in label{ 
+    text-align:left;
+    font-size:10px; 
+    font-weight:bold;
+    
+}
+
+.fill-in input{ 
+    margin-bottom:10px;
+   border-radius:5px;
+   border:1px solid white; 
+   background-color:var(--blue);
+   padding:5px;
+   width:200px;
+   color:white;
+}
+
+.fill-in input:hover{ 
+    border:1px solid var(--yellow);
+}
+
+.no-password { 
+    color:var(--yellow);
+    font-weight:bold; 
+    font-size:10px;
+    text-decoration:none;
+    margin-left:3em;
+}
+
+
+.mentor-sign-in{ 
+    margin-top:2em;
+    background-color: var(--yellow); 
+    border:2px solid var(--yellow);
+    border-radius:10px; 
+    width:200px;
+    padding:5px;
+    font-weight:bold;
+}
+
+.sign-in:hover{ 
+    background-color:transparent;
+    color: var(--yellow);
+}
+
+i{ 
+    margin-right:20px;
+}
+
+@media(max-width:400px){ 
+
+    .container img{ 
+        display:none;
+    }
+
+    .container{ 
+        margin:5em auto;
+    }
+
+    .fill-in p{ 
+        width:200px;
+        margin:0 auto; 
+        
+    }
+    
+    .fill-in{ 
+        margin-top:3em;
+    }
+
+    form{ 
+        margin-top:1em;
+    }
+
+    .sign-in{ 
+        margin-top:5em;
+    }
+}
