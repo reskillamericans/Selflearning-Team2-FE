@@ -1,18 +1,39 @@
 import React from "react";
 import "./Mentor.css";
-import M from "../../images/M.png";
-import Anna from "../../images/Anna.png";
-import Lisa from "../../images/Lisa.png";
-import Lana from "../../images/Lana.png";
-import Phillip from "../../images/Phillip.png";
-import Martin from "../../images/Martin.png";
-import Dorothy from "../../images/Dorothy.png";
-import Accept from "../../images/Accept.png";
-import Skip from "../../images/Skip.png";
+import "./Nav.js";
+import lethelp from"./images/lethelp.png";
+import M from "./images/M.png";
+import Anna from "./images/Anna.png";
+import Lisa from "./images/Lisa.png";
+import Lana from "./images/Lana.png";
+import Phillip from "./images/Phillip.png";
+import Martin from "./images/Martin.png";
+import Dorothy from "./images/Dorothy.png";
+import Accept from "./images/Accept.png";
+import Skip from "./images/Skip.png";
 
 export default function Mentor() {
   return (
     <>
+    <nav>
+    <ul>
+      <li className='desktop-logo'>
+        <img src={lethelp} alt="lethelp" />
+      </li>
+      <li className="mobile-logo">
+      <img src={M} alt='M' />
+      </li>
+      <li>
+      <a href="#">Profile</a>
+      </li>
+      <li>
+        <a href="#">About Us</a>
+      </li>
+      <li>
+        <a href="#">Sign In</a>
+      </li>
+    </ul>
+  </nav>
       <body>
         <div className="mentor">
           <img src={M} alt="M" />

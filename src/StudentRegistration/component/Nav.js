@@ -1,7 +1,7 @@
 import React from "react";
-import lethelp from "../../images/lethelp.png";
+import lethelp from "./images/lethelp.png";
 import "./Nav.css";
-import M from '../../images/M.png'
+import M from './images/M.png'
 
 export default function Nav() {
   return (

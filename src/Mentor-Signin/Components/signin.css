@@ -13,6 +13,10 @@ body{
   
     background-color:var(--blue);
 
+} 
+
+.li{ 
+    padding:10px;
 }
 
 .signin-title{ 
@@ -25,10 +29,10 @@ body{
     margin-right:12px;
 }
 
-.container{ 
+.mentor-container{ 
    width:20em;
    padding:1em;
-   margin:9em auto;
+   margin:3em auto;
    color:white;
     
 } 
@@ -39,7 +43,7 @@ img{ /*logo image*/
 }
 
 .interactive p{ 
-    margin-top:5em;
+    margin-top:3em;
 }
 
 .fill-in{ 
@@ -94,7 +98,7 @@ img{ /*logo image*/
     color: var(--yellow);
 }
 
-i{ 
+.mentor-signin i{ 
     margin-right:20px;
 }
 

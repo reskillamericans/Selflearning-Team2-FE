@@ -8,6 +8,7 @@
 *{ 
     padding:0; 
     margin:0; 
+    background-color:transparent;
 }
 
 .home-container{ 
@@ -34,7 +35,7 @@
 }
 
 .info{ 
-    max-width: 400px;
+    max-width: 480px;
     margin:0 auto;
     margin-top: 2em;
     text-align:center;
@@ -72,15 +73,19 @@
 .box{ 
     background-color:var(--gray);
     border-radius:5px; 
-    width:250px;
+    width: 230px;
     display:flex;
     padding: 10px;
     justify-content:space-around;
+    align-items:center;
 
-}
+} 
+
+
 
 .left{ 
     text-align:center;
+    
 }
 
 .box1 { 
@@ -125,11 +130,23 @@
     grid-row:3/4;
 }
 
+.box h4{ 
+    background-color:transparent;
+}
+
+.box img{ 
+    height:50px;
+}
+
+.box p{ 
+    font-size:14px;
+}
 
 
 .box figcaption{ 
     font-weight:bold; 
     color:var(--lightblue);
+    font-size:12px;
 }
 
 .headshot{ 
@@ -218,9 +235,7 @@
 }
 
 @media(max-width:400px){ 
-    .ul{ 
-     /*the nav bar is acting up not sure what the issue is*/
-    }
+
 
     .home-container{ 
         margin-top: 4em;
@@ -240,7 +255,7 @@
     }
 
     .info{ 
-        width:250px;
+        width:300px;
     }
     
     .grid-container{ 

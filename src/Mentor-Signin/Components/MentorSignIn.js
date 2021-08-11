@@ -10,12 +10,12 @@ function MentorSignIn(){
                 <a href="/">
                 <img src={longlogo} alt="logo" /></a>
                 <ul>
-                    <a href="/About"><li>About Us</li></a> {/*how to get to about page*/}
+                    <a href="/About"><li className="li">About Us</li></a> {/*how to get to about page*/}
                 </ul>
             </nav>
             {/*using the styling in navigation file*/}
 
-            <div className="container">
+            <div className="mentor-container">
                
                 <header className="signin-title">
                     <img src={logo} alt="logo"/>
@@ -35,7 +35,7 @@ function MentorSignIn(){
 
                         <a className="no-password" href="./home-page.js">Forgot Password?/Click here!</a><br/>
                         {/*Don't forget the link*/}
-                        <a href="/HomePage"><button className='mentor-sign-in'><i class="fas fa-sign-in-alt"></i>Sign-In</button></a>
+                        <a href="/HomePage"><button className='mentor-sign-in'><i class=" fas fa-sign-in-alt"></i>Sign-In</button></a>
                     </div>
                 </div>
             </div>

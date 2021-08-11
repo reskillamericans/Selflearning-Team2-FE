@@ -4,6 +4,11 @@
   font-family: "rubik";
 }
 
+body {
+  position: relative;
+  font-size: 10px;
+}
+
 .sbjcts-selection {
   position: relative;
   padding-top: 180px;
@@ -16,40 +21,39 @@
 
 .sbjcts-selection img {
   width: 50px;
-  height: 30%;
   margin-right: 10px;
 }
 
-.subjects {
-  color: #ccc;
-  text-align: center;
-  padding-top: 30px;
-  padding-bottom: 20px;
-}
-
 .subjects p {
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
 }
 
 .container {
+  display: block;
   background-color: #ccc;
-  height: 20vh;
+  color: #180218;
+  justify-content: space-around;
+  justify-items: auto;
+  width: auto;
+  height: auto;
   border-radius: 5px;
-  padding: 2em;
-  margin-left: 250px;
-  margin-right: 250px;
+  margin-left: 200px;
+  margin-right: 200px;
 }
 
 h4 {
   text-align: center;
 }
 
-.syntax1 {
+.syntax1,
+.syntax2 {
   display: flex;
-  justify-content: space-evenly;
+  flex-wrap: wrap;
+  justify-content: space-around;
   background-color: #ccc;
-  padding-bottom: 10px;
+  height: auto;
 }
 
 .radiosyn {
@@ -57,6 +61,7 @@ h4 {
   flex-direction: column;
   align-items: center;
   background-color: #ccc;
+  padding:.5em;
 }
 
 .radio-tags {
@@ -64,6 +69,7 @@ h4 {
   flex-direction: column;
   align-items: center;
   background-color: #ccc;
+  padding:.5em;
 }
 
 .radio-forms {
@@ -71,6 +77,7 @@ h4 {
   flex-direction: column;
   align-items: center;
   background-color: #ccc;
+  padding:.5em;
 }
 
 .radio-seo {
@@ -78,6 +85,7 @@ h4 {
   flex-direction: column;
   align-items: center;
   background-color: #ccc;
+  padding:.5em;
 }
 
 .radio-svg {
@@ -85,6 +93,7 @@ h4 {
   flex-direction: column;
   align-items: center;
   background-color: #ccc;
+  padding:.5em;
 }
 
 .container h5 {
@@ -105,12 +114,6 @@ h4 {
   font-weight: 100;
 }
 
-.hyper,
-.cascading {
-  color: #004e89;
-  padding: 1em;
-}
-
 .container,
 .hyper,
 .cascading,
@@ -118,10 +121,10 @@ h4 {
   background-color: #ccc;
 }
 
-.syntax2 {
-  display: flex;
-  justify-content: space-evenly;
-  background-color: #ccc;
+.hyper,
+.cascading {
+  color: #004e89;
+  padding: 1.5em;
 }
 
 .radiotax {
@@ -129,6 +132,7 @@ h4 {
   flex-direction: column;
   align-items: center;
   background-color: #ccc;
+  padding: .5em;
 }
 
 .radio-selectors {
@@ -136,6 +140,7 @@ h4 {
   flex-direction: column;
   align-items: center;
   background-color: #ccc;
+  padding: .5em;
 }
 
 .radio-layout {
@@ -143,6 +148,7 @@ h4 {
   flex-direction: column;
   align-items: center;
   background-color: #ccc;
+  padding: .5em;
 }
 
 .radio-flex {
@@ -150,6 +156,7 @@ h4 {
   flex-direction: column;
   align-items: center;
   background-color: #ccc;
+  padding:.5em;
 }
 
 .radio-grid {
@@ -157,6 +164,7 @@ h4 {
   flex-direction: column;
   align-items: center;
   background-color: #ccc;
+  padding: .5em;
 }
 
 .btn:hover {
@@ -202,10 +210,11 @@ h4 {
   }
 
   .container {
+    display: block;
     background-color: #ccc;
-    height: 55vh;
+    justify-content: space-around;
     border-radius: 5px;
-    padding: 1.5em;
+    height: auto;
     margin-left: 45px;
     margin-right: 45px;
   }
@@ -228,14 +237,14 @@ h4 {
     justify-content: space-between;
   }
 
-  .syntax1 {
+  .syntax1,
+  .syntax2 {
     display: flex;
-    flex-wrap:wrap;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: space-around;
     background-color: #ccc;
-    padding-bottom: 10px;
-  }
+    height: 10vh;
+}
 
   .radiosyn {
     display: flex;
@@ -298,17 +307,8 @@ h4 {
   .container,
   .hyper,
   .cascading,
-  h4 {
+  .hyper h4, .cascading h4 {
     background-color: #ccc;
-  }
-
-  .syntax2 {
-    display: flex;
-    flex-wrap:wrap;
-    flex-direction: row;
-    justify-content: space-between;
-    background-color: #ccc;
-    padding-bottom: 10px;
   }
 
   .radiotax {

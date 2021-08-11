@@ -1,3 +1,7 @@
+.about_container {
+  display: flex;
+}
+
 .about-left-side {
   width: 635px;
   height: 100vh;

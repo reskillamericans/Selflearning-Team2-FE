@@ -1,35 +1,7 @@
-/* 
 
-.left-side {
-    width: 635px;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    
+.tutors_container {
+  display: flex;
 }
-
-
-.top-left-text{
-    position: absolute;
-    top: 80px;
-    left: 165px;
-    color: black;
-    font-weight: 700;
-    font-size: 19px;
-  }
-
-
-.book {
-    width: 100%;
-    height: 100%;
-    object-fit: fill;
-    
-}
-
-.right-side {
-    display: flex;
-    flex-direction: column;
-} */
 
 .tutors-left-side {
   width: 635px;

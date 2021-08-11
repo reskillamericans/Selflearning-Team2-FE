@@ -1,22 +1,43 @@
 import React from "react";
+import "./Nav.js";
 import "./Course.css";
-import M from "../../images/M.png";
-import HTML from "../../images/HTML.png";
-import Algorithm from "../../images/Algorithm.png";
-import CSS from "../../images/CSS.png";
-import API from "../../images/API.png";
-import Security from "../../images/Security.png";
-import Audits from "../../images/Audits.png";
-import Testing from "../../images/Testing.png";
-import Javascript from "../../images/Javascript.png";
-import Component from "../../images/Component.png";
-import BuildTools from "../../images/BuildTools.png";
-import Frameworks from "../../images/Frameworks.png";
-import Collaboration from "../../images/Collaboration.png";
+import lethelp from"./images/lethelp.png";
+import M from "./images/M.png";
+import HTML from "./images/HTML.png";
+import Algorithm from "./images/Algorithm.png";
+import CSS from "./images/CSS.png";
+import API from "./images/API.png";
+import Security from "./images/Security.png";
+import Audits from "./images/Audits.png";
+import Testing from "./images/Testing.png";
+import Javascript from "./images/Javascript.png";
+import Component from "./images/Component.png";
+import BuildTools from "./images/BuildTools.png";
+import Frameworks from "./images/Frameworks.png";
+import Collaboration from "./images/Collaboration.png";
 
 export default function Course() {
   return (
     <>
+    <nav>
+    <ul>
+      <li className='desktop-logo'>
+        <img src={lethelp} alt="lethelp" />
+      </li>
+      <li className="mobile-logo">
+      <img src={M} alt='M' />
+      </li>
+      <li>
+      <a href="#">Profile</a>
+      </li>
+      <li>
+        <a href="#">About Us</a>
+      </li>
+      <li>
+        <a href="#">Sign In</a>
+      </li>
+    </ul>
+  </nav>
       <div className="crs-selection">
         <img src={M} alt="M" />
         <span>Course Selection</span>
