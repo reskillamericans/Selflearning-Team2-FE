@@ -10,6 +10,7 @@ function Tutors() {
   return (
     <>
       <div className="tutors_container">
+    <div className="tuts">
         <div className="tutors-left-side">
           <div className="top-left-text">Struggling with Self-Learning?</div>
         </div>
@@ -24,6 +25,7 @@ function Tutors() {
               />
             </Link>
           </div>
+</div>
 
           <img src={logo} alt="logo" className="logo3" />
           <div className="sign">
@@ -36,6 +38,7 @@ function Tutors() {
           </div>
         </div>
       </div>
+</div>
     </>
   );
 }
