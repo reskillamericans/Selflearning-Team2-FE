@@ -20,6 +20,7 @@ function AllSet() {
             </div>
             <div className="button">
                 <Link to="/profile"><button className="profile_btn">Go to My Profile Page</button></Link>
+              
             </div>
             
         </div>
