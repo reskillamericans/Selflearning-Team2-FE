@@ -1,3 +1,7 @@
+.tut {
+  display: flex !important;
+}
+
 
 .tutors_container {
   display: flex !important;
