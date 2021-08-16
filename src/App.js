@@ -13,7 +13,6 @@ import Welldone from './StudentRegistration/component/Welldone'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import MentorRegistration from './MentorRegistration/MentorRegistration'
 import SelectCourses from './MentorRegistration/SelectCourses';
-import Subjects from './MentorRegistration/Subjects';
 import DaysAvailable from './MentorRegistration/DaysAvailable';
 import AllSet from './MentorRegistration/AllSet';
 import Channels from './MentorRegistration/Channels';
