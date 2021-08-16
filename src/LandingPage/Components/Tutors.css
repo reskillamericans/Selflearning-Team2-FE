@@ -3,6 +3,10 @@
   display: flex;
 }
 
+.tut{
+  display: flex;
+}
+
 .tutors-left-side {
   width: 635px;
   height: 100vh;
