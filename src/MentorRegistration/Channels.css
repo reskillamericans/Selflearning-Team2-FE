@@ -22,6 +22,7 @@ img.mlogo {
 
 form .mentor-details .Channels_input-box {
     width: calc(100% / 2 - 20px);
+    
 
 }
 
@@ -163,7 +164,7 @@ img.minuscircle  {
 
 
 
-@media all and (max-width:420px) {
+@media all and (max-width:440px) {
    
     .title_container {
         max-width: 75%;
@@ -205,5 +206,11 @@ img.minuscircle  {
 
     .mentor-welcome_mike {
         display: none;
+    }
+}
+
+@media all and (max-width:640px) {
+    input {
+        max-width: 200px;
     }
 }

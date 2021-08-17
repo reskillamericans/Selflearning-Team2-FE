@@ -14,7 +14,7 @@ function SelectCourses() {
                 <div className="mentor-welcome-title">
                     <img src={mlogo} alt="M logo" className="mlogo"/><span className="mentor-welcome"> Welcome Mike!</span>
                 </div>
-                <div><p className="select-course">Please, select the course you are proficient in.</p></div>
+                <div><p className="select-course">Please, select the courses you are proficient in.</p></div>
                 <div className="img-holder">
                     <img src={courses} alt="list of courses" className="courses-pic" /><img src={mobile_courses} alt="list of courses" className="mobile_courses-pic" />
                 </div>
