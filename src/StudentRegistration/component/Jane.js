@@ -17,13 +17,13 @@ export default function Jane() {
       <img src={M} alt='M' />
       </li>
       <li>
-      <a href="#">Profile</a>
+      <a href="/">Profile</a>
       </li>
       <li>
-        <a href="#">About Us</a>
+        <a href="/">About Us</a>
       </li>
       <li>
-        <a href="#">Sign In</a>
+        <a href="/">Sign In</a>
       </li>
     </ul>
   </nav>
@@ -65,7 +65,7 @@ export default function Jane() {
               </div>
             </div>
             <div className="link">
-              <a href="#"> + Add More Channels </a>
+              <a href="/"> + Add More Channels </a>
             </div>
             <br></br>
             <button className="btn">Next</button>
