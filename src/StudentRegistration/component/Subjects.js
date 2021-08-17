@@ -16,13 +16,13 @@ export default function Subjects() {
       <img src={M} alt='M' />
       </li>
       <li>
-      <a href="#">Profile</a>
+      <a href="/">Profile</a>
       </li>
       <li>
-        <a href="#">About Us</a>
+        <a href="/">About Us</a>
       </li>
       <li>
-        <a href="#">Sign In</a>
+        <a href="/">Sign In</a>
       </li>
     </ul>
   </nav>
