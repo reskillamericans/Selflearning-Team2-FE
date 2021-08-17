@@ -24,13 +24,13 @@ export default function Mentor() {
       <img src={M} alt='M' />
       </li>
       <li>
-      <a href="#">Profile</a>
+      <a href="/">Profile</a>
       </li>
       <li>
-        <a href="#">About Us</a>
+        <a href="/">About Us</a>
       </li>
       <li>
-        <a href="#">Sign In</a>
+        <a href="/">Sign In</a>
       </li>
     </ul>
   </nav>
@@ -52,11 +52,11 @@ export default function Mentor() {
             <ul className="mentor1">
               <img src={Anna} alt="Anna" />
               <div>
-                <a href="#">
+                <a href="/">
                   <img src={Accept} alt="Accept" />
                   Accept
                 </a>
-                <a href="#">
+                <a href="/">
                   <img src={Skip} alt="Skip" />
                   Skip
                 </a>
@@ -66,11 +66,11 @@ export default function Mentor() {
             <ul className="mentor1">
               <img src={Lisa} alt="lisa" />
               <div>
-                <a href="#">
+                <a href="/">
                   <img src={Accept} alt="Accept" />
                   Accept
                 </a>
-                <a href="#">
+                <a href="/">
                   <img src={Skip} alt="Skip" />
                   Skip
                 </a>
@@ -80,11 +80,11 @@ export default function Mentor() {
             <ul className="mentor1">
               <img src={Lana} alt="Lana" />
               <div>
-                <a href="#">
+                <a href="/">
                   <img src={Accept} alt="Accept" />
                   Accept
                 </a>
-                <a href="#">
+                <a href="/">
                   <img src={Skip} alt="Skip" />
                   Skip
                 </a>
@@ -94,11 +94,11 @@ export default function Mentor() {
             <ul className="mentor1">
               <img src={Phillip} alt="Phillip" />
               <div>
-                <a href="#">
+                <a href="/">
                   <img src={Accept} alt="Accept" />
                   Accept
                 </a>
-                <a href="#">
+                <a href="/">
                   <img src={Skip} alt="Skip" />
                   Skip
                 </a>
@@ -108,11 +108,11 @@ export default function Mentor() {
             <ul className="mentor1">
               <img src={Martin} alt="Martin" />
               <div>
-                <a href="#">
+                <a href="/">
                   <img src={Accept} alt="Accept" />
                   Accept
                 </a>
-                <a href="#">
+                <a href="/">
                   <img src={Skip} alt="Skip" />
                   Skip
                 </a>
@@ -122,11 +122,11 @@ export default function Mentor() {
             <ul className="mentor1">
               <img src={Dorothy} alt="Dorothy" />
               <div>
-                <a href="#">
+                <a href="/">
                   <img src={Accept} alt="Accept" />
                   Accept
                 </a>
-                <a href="#">
+                <a href="/">
                   <img src={Skip} alt="Skip" />
                   Skip
                 </a>
