@@ -114,7 +114,14 @@ input {
     margin: 0 auto;
     position: relative;
     top: 60px;
+    
      
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+
 }
 
 .already-registered a {
@@ -133,11 +140,16 @@ input {
     text-align: left;
 }
 
-button a .register-btn:hover {
+.button button:hover {
     cursor: pointer;
     color: #ffc914;
     background-color: #180126;
     border: 1.5px solid #ffc914;
+}
+
+
+.user_icon button:hover {
+    color: #ffc914;
 }
 
 img.user_icon {
@@ -145,10 +157,10 @@ img.user_icon {
 }
 
 
-@media all and (max-width:420px) {
-    /* .mentor-details .input-box input {
-        
-    } */
+@media all and (max-width:440px) {
+    .register-btn {
+        max-width: 200px;
+    }
 
     .title_container {
         max-width: 75%;
@@ -166,6 +178,12 @@ img.user_icon {
     form .mentor-details .input-box {
         margin-bottom: 15px;
         width: 100%;
+    }
+}
+
+@media all and (max-width:640px) {
+    input {
+        max-width: 200px;
     }
 }
 

@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 
 function Tutors() {
   return (
-    <>
+    <div className="tut">
       <div className="tutors_container">
         <div className="tutors-left-side">
           <div className="top-left-text">Struggling with Self-Learning?</div>
@@ -36,7 +36,7 @@ function Tutors() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

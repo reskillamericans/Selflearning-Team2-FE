@@ -1,6 +1,10 @@
+.tut {
+  display: flex !important;
+}
+
 
 .tutors_container {
-  display: flex;
+  display: flex !important;
 }
 
 .tutors-left-side {

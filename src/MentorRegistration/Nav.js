@@ -8,7 +8,7 @@ function Nav() {
     return (
         <>
             <nav className="mentor-navbar">
-                <img src={logo1} alt="logo" className="logo1"/><span className="mobile"><img src={mlogo} alt="logo" className="mobile_logo"/></span>
+            <Link to="/"><img src={logo1} alt="logo" className="logo1"/><span className="mobile"><img src={mlogo} alt="logo" className="mobile_logo"/></span></Link>
                 <div className="nav-links">
                     <Link to="/signout">Sign Out</Link>
                     <Link to="/about">About Us</Link>

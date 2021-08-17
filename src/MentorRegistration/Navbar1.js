@@ -8,7 +8,7 @@ function Navbar1() {
     return (
         <>
         <nav className="navbar1">
-           <img src={logo1} alt="logo" className="logo1"/><span className="mobile"><img src={mlogo} alt="logo" className="mobile_logo"/></span>
+        <Link to="/"><img src={logo1} alt="logo" className="logo1"/><span className="mobile"><img src={mlogo} alt="logo" className="mobile_logo"/></span></Link>
            <Link to="/about">About Us</Link>
         </nav>
        </>

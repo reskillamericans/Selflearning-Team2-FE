@@ -35,7 +35,7 @@ function MentorSignIn(){
 
                         <a className="no-password" href="./home-page.js">Forgot Password?/Click here!</a><br/>
                         {/*Don't forget the link*/}
-                        <a href="/HomePage"><button className='mentor-sign-in'><i class=" fas fa-sign-in-alt"></i>Sign-In</button></a>
+                        <a href="/Profile"><button className='mentor-sign-in'><i class=" fas fa-sign-in-alt"></i>Sign-In</button></a>
                     </div>
                 </div>
             </div>
