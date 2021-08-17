@@ -16,13 +16,13 @@ export default function Registration() {
       <img src={M} alt='M' />
       </li>
       <li>
-      <a href="#">Profile</a>
+      <a href="/">Profile</a>
       </li>
       <li>
-        <a href="#">About Us</a>
+        <a href="/">About Us</a>
       </li>
       <li>
-        <a href="#">Sign In</a>
+        <a href="/">Sign In</a>
       </li>
     </ul>
   </nav>
@@ -68,7 +68,7 @@ export default function Registration() {
           </form>
           <br></br>
           <footer>
-            <a href="#">Already Registered? Sign In</a>
+            <a href="/">Already Registered? Sign In</a>
           </footer>
         </main>
       </body>
