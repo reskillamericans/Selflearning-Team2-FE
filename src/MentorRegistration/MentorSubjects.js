@@ -6,7 +6,7 @@ import mlogo from './mlogo.png';
 import subjects from './subjects.png';
 import mobile_subjects from './mobile_subjects.png';
 
-function Subjects() {
+function MentorSubjects() {
     return (
         <>
         <Nav />
@@ -31,4 +31,4 @@ function Subjects() {
     )
 }
 
-export default Subjects
+export default MentorSubjects

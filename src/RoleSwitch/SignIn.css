@@ -37,7 +37,7 @@
     display: grid; 
 }
 
-button{
+.signin-button{
 width: 296px;
 height: 40px;
 background: #004E89;

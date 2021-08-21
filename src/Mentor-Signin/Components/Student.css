@@ -1,0 +1,114 @@
+:root{ 
+    --blue: #180126;
+    --yellow:#FFD84C;
+    --gray:#C4C4C4;
+    --ligherblue:#A7C4E0;
+
+}
+
+*{ 
+    margin:0; 
+    padding:0;
+}
+
+.student-container{ 
+    max-width:500px; 
+    margin:0 auto;
+}
+
+.student-top{ 
+    text-align:center;
+    color:white;
+    margin-bottom:1em;
+    margin-top:3em;
+}
+
+.student-top img{ 
+    height:80px;
+}
+
+.social{ 
+   display:flex;
+   justify-content:space-between;
+    width:200px;
+    margin:0 auto;
+    padding-left:2em;
+    margin-bottom:2em;
+    
+}
+
+.social i{ 
+     color:var(--gray);
+     
+}
+
+.social i:hover{ 
+    color:var(--yellow);
+}
+
+.student-form{  
+    margin-left:10em;
+}
+
+.student-form label{ 
+    color:white;
+}
+
+.student-form input{ 
+    margin-bottom:1em;
+    border-radius:5px;
+    border:1px solid white; 
+    background-color:transparent;
+    padding:5px;
+    width:200px;
+    color:white;
+    
+}
+
+.student-form input:hover {
+    border:1px solid var(--yellow);
+}
+
+.student-bottom{ 
+    max-width:300px;
+    margin:0 auto;
+    text-align:center;
+}
+
+.student-bottom h3{ 
+    margin-bottom:1em;
+}
+
+.carousel .background{ 
+    background-color:var(--gray); 
+    border:3px solid var(--gray);
+    text-align:center;
+    
+}
+
+
+.student-bottom button { 
+    background-color: var(--yellow); 
+    border:2px solid var(--yellow);
+    border-radius:15px; 
+    width:230px;
+    padding:5px;
+    font-weight:bold;
+    text-decoration:none; 
+    color:var(--blue);
+    margin-top:1em;
+    margin-bottom:1em;
+    
+}
+
+.student-bottom button:hover {
+    background-color:transparent;
+    color: var(--yellow);
+}
+
+@media(max-width:400px){ 
+
+    .student-form{ 
+        margin-left:5em;
+    } 
+}
