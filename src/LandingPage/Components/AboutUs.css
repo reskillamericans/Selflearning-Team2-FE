@@ -42,6 +42,10 @@
   display: none;
 }
 
+.text {
+  height: auto;
+}
+
 @media (max-width: 500px) {
   .about-right-side {
     display: flex;

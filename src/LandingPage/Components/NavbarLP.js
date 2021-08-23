@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 function NavbarLP() {
   return (
     <nav className="navbarLP">
-      <div className="links">
+      <div className="lp_links">
         <Link to="/">Home</Link>
         <Link to="/about">About Us</Link>
       </div>

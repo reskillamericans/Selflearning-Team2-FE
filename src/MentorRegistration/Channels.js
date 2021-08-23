@@ -10,12 +10,12 @@ function Channels() {
         <>
         <NavMR />
         <div className="main">
-        <div className="mentor-container">
+        <div className="mr_mentor-container">
                 <div className="mentor-welcome-title">
                     <img src={mlogo} alt="M logo" className="mlogo"/><span className="mentor-welcome_mike"> Welcome Mike!</span><span className="prefer_channels_text">Preferable Channels</span>
                 </div>
                 <p className="channels_text">Finally, set your preferable channels for teaching.</p>
-                <form action="#">
+                <form className="mr_form">
                     <div className="mentor-details">
                         <div className="Channels_input-box">
                             <span className="details">Twitter</span>

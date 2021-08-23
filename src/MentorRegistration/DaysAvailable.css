@@ -39,6 +39,10 @@ img.mobile_days-pic {
     display: none;
 }
 
+.days-pic {
+    height: auto;
+}
+
 
 @media all and (max-width:600px) {
     img.mobile_days-pic {
@@ -54,7 +58,7 @@ img.mobile_days-pic {
 @media all and (max-width:768px) {
 
     img.days-pic {
-        /* display: block; */
+        
         max-width: 100%;
         height: auto;
     }

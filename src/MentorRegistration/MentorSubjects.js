@@ -11,7 +11,7 @@ function MentorSubjects() {
         <>
         <NavMR />
         <div className="main"> 
-        <div className="mentor-container">
+        <div className="mr_mentor-container">
             <div className="mentor-welcome-title">
                 <img src={mlogo} alt="M logo" className="mlogo"/><span className="mentor-welcome"> Welcome Mike!</span>
             </div>

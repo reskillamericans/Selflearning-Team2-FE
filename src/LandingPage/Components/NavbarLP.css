@@ -4,13 +4,13 @@
   margin: 0 auto;
   background: transparent;
 }
-.navbarLP .links {
+.navbarLP .lp_links {
   margin-left: auto;
   float: right;
   margin-left: 500px;
   font-size: 14px;
 }
-.navbarLP a {
+.navbarLP .lp_links a {
   margin-left: 26px;
   text-decoration: none;
   padding: 6px;

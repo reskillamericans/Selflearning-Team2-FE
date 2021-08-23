@@ -8,7 +8,7 @@
 }
 
 
-.mentor-container {
+.mr_mentor-container {
     max-width: 768px;
     width: 100%;
     padding: 25px 30px;
@@ -20,7 +20,7 @@ img.mlogo {
 
 }
 
-form .mentor-details .Channels_input-box {
+.mr_form .mentor-details .Channels_input-box {
     width: calc(100% / 2 - 20px);
     
 
@@ -42,7 +42,7 @@ form .mentor-details .Channels_input-box {
     bottom: 24px;
 }
 
-.mentor-container form .mentor-details {
+.mr_mentor-container .mr_form .mentor-details {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -65,7 +65,7 @@ a {
 
 
 
-input {
+.Channels_input-box input {
     background-color: #180126;
     border-radius: 4px;
     outline: none;
@@ -91,6 +91,7 @@ img.minuscircle  {
     position: relative;
     top: 7px;
     left: 5px;
+    height: auto;
 }
 
 .details {
@@ -179,16 +180,13 @@ img.minuscircle  {
         flex-direction: column;
     }
 
-    .mentor-container form .mentor-details {
+    .mr_mentor-container .mr_form .mentor-details {
         display: flex;
         flex-direction: column;
     }
 
     img.minuscircle {
-        position: relative;
-        top: -36px;
-        left: 305px;
-        display: block;
+        display: none;
     }
 
     .prefer_channels_text{
