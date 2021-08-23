@@ -33,8 +33,8 @@ function SignIn() {
                     <div className="h1">How do you wish to Sign In?</div>
 
                     <div className="button-div">
-                        <button>Sign-In as Mentor</button>
-                        <button>Sign-In as Student</button>
+                        <a href="/MentorSignIn"><button className="signin-button">Sign-In as Mentor</button></a>
+                        <button className="signin-button">Sign-In as Student</button>
                     </div>
                     <div className="sign-in">
                         <p>Already Registered?

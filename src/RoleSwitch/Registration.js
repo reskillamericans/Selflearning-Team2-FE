@@ -23,10 +23,10 @@ function Registration() {
           <div className="h1">What do you wish to register for?</div>
 
           <div className="button-div">
-            <button>Register as Mentor</button>
-            <button>Register as Student</button>
+            <button className="button">Register as Mentor</button>
+            <button className="button">Register as Student</button>
           </div>
-          <div className="sign-in">
+          <div className="registration-sign-in">
             <p>
               Already Registered?
               <Link to="/signin">Sign In </Link>

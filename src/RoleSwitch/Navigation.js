@@ -7,7 +7,7 @@ function Navigation() {
     <div className="nav-bar">
       <img src={logo} alt="logo" />
 
-      <ul>
+      <ul className="ul">
         <li>Home</li>
         <li>About Us</li>
       </ul>
