@@ -1,15 +1,16 @@
-.navbar {
+.navbarLP {
   padding: 20px;
   display: flex;
   margin: 0 auto;
+  background: transparent;
 }
-.navbar .links {
+.navbarLP .links {
   margin-left: auto;
   float: right;
   margin-left: 500px;
   font-size: 14px;
 }
-.navbar a {
+.navbarLP a {
   margin-left: 26px;
   text-decoration: none;
   padding: 6px;

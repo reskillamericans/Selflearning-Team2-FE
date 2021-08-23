@@ -22,17 +22,17 @@
     font-weight: 700;
 }
 
-img.mobile_logo {
+img.mr_mobile_logo {
     display: none;
 }
 
 @media all and (max-width:650px) {
-    img.logo1 {
+    img.mr_logo1 {
         display: none;
 
     }
 
-    img.mobile_logo {
+    img.mr_mobile_logo {
         display: block;
         width: 25px;
         height: 25px;

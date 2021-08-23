@@ -1,5 +1,5 @@
 import React from 'react'
-import Nav from './Nav';
+import NavMR from './NavMR';
 import mlogo from './mlogo.png'
 import './AllSet.css';
 import celebrate from './celebrate.png';
@@ -8,8 +8,8 @@ import { Link } from "react-router-dom";
 function AllSet() {
     return (
         <>
-        <Nav />
-        <main>
+        <NavMR />
+        <div className="main" >
         <div className="mentor-container">
             <div className="mentor-welcome-title">
                 <img src={mlogo} alt="M logo" className="mlogo"/><span className="mentor-welcome"> Welcome Mike!</span>
@@ -18,13 +18,13 @@ function AllSet() {
             <div className="img-holder">
                 <img src={celebrate} alt="celebration" className="celebrate-pic" />
             </div>
-            <div className="button">
+            <div className="mr_button">
                 <Link to="/profile"><button className="profile_btn">Go to My Profile Page</button></Link>
               
             </div>
             
         </div>
-        </main>
+        </div>
         
     </>
     )

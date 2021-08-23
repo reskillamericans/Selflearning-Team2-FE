@@ -51,6 +51,13 @@ img.mobile_courses-pic {
     display: none;
 }
 
+.mr_button button:hover {
+    cursor: pointer;
+    color: #ffc914;
+    background-color: #180126;
+    border: 1.5px solid #ffc914;
+}
+
 @media all and (max-width:600px) {
     img.mobile_courses-pic {
         display: block;

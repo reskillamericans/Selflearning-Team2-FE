@@ -1,6 +1,6 @@
 import React from 'react'
 import './Channels.css';
-import Nav from './Nav';
+import NavMR from './NavMR';
 import mlogo from './mlogo.png';
 import { Link } from "react-router-dom";
 import minusCircle from './minusCircle.png';
@@ -8,8 +8,8 @@ import minusCircle from './minusCircle.png';
 function Channels() {
     return (
         <>
-        <Nav />
-        <main>
+        <NavMR />
+        <div className="main">
         <div className="mentor-container">
                 <div className="mentor-welcome-title">
                     <img src={mlogo} alt="M logo" className="mlogo"/><span className="mentor-welcome_mike"> Welcome Mike!</span><span className="prefer_channels_text">Preferable Channels</span>
@@ -35,7 +35,7 @@ function Channels() {
                         </div>
                     </div>
                     <div className="more_channels">+ Add More Channels</div>
-                    <div className="button">
+                    <div className="mr_button">
                     <Link to="/all_set"><button className="conclude-btn">Conclude</button></Link>
                     </div>
                     
@@ -46,7 +46,7 @@ function Channels() {
                 
             </div>
             
-        </main>
+        </div>
         </>
     )
 }
