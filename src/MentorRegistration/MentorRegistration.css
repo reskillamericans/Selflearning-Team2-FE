@@ -1,4 +1,4 @@
-main {
+.main{
     display: flex;
     height: 100vh;
     justify-content: center;
@@ -7,7 +7,7 @@ main {
     padding: 10px;
 }
 
-.container {
+.mr_container {
     max-width: 768px;
     width: 100%;
     padding: 25px 30px;
@@ -21,7 +21,7 @@ img.mlogo {
 
 }
 
-.title_container{
+.mr_title_container{
     
     color: #cccccc;
     font-size: 19px;
@@ -33,26 +33,26 @@ img.mlogo {
     
 }
 
-.mentor-title {
+.mr_mentor-title {
     padding: 0 0 0 30px;
     position: relative;
     bottom: 24px;
 }
 
-.container form .mentor-details {
+.mr_container form .mr_mentor-details {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
 
-form .mentor-details .input-box {
+form .mr_mentor-details .mr_input-box {
     margin: 20px 0 12px 0;
     width: calc(100% / 2 - 20px);
 
 }
 
-.mentor-details .input-box .details {
+.mr_mentor-details .mr_input-box .details {
     display: block;
     margin-bottom: 5px;
 }
@@ -73,7 +73,7 @@ a {
     text-decoration: none;
 }
 
-.mentor-details .input-box input {
+.mr_mentor-details .mr_input-box input {
     width: 296px;
     height: 40px;
     outline: none;
@@ -81,7 +81,7 @@ a {
 }
 
 
-input {
+.mr_input-box input {
     background-color: #180126;
     border-radius: .3rem;
     outline: none;
@@ -101,7 +101,7 @@ input {
     font-weight: 700;
 }
 
-.register-btn{
+.mr_register-btn{
     display: block;
     width: 296px;
     height: 40px;
@@ -118,7 +118,7 @@ input {
      
 }
 
-.button {
+.mr_button{
     display: flex;
     justify-content: center;
 
@@ -140,7 +140,7 @@ input {
     text-align: left;
 }
 
-.button button:hover {
+.mr_button button:hover {
     cursor: pointer;
     color: #ffc914;
     background-color: #180126;
@@ -154,15 +154,16 @@ input {
 
 img.user_icon {
     padding: 0px 15px;
+    background: transparent;
 }
 
 
 @media all and (max-width:440px) {
-    .register-btn {
+    .mr_register-btn {
         max-width: 200px;
     }
 
-    .title_container {
+    .mr_title_container {
         max-width: 75%;
     }
 
@@ -170,19 +171,19 @@ img.user_icon {
         display: none;
     }
 
-    .container {
+    .mr_container {
         display: flex;
         flex-direction: column;
     }
 
-    form .mentor-details .input-box {
+    form .mr_mentor-details .mr_input-box {
         margin-bottom: 15px;
         width: 100%;
     }
 }
 
 @media all and (max-width:640px) {
-    input {
+    .mr_input-box input {
         max-width: 200px;
     }
 }

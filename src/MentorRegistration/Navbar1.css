@@ -17,12 +17,20 @@
     font-weight: 700;
 }
 
-img.mobile_logo {
+img.mr_mobile_logo{
     display: none;
 }
 
+.mr_logo1 {
+    max-width: 180px;
+    width: 120px;
+    height: auto;
+    margin-top: 7px;
+
+}
+
 @media all and (max-width:650px) {
-    img.logo1 {
+    img.mr_logo1  {
         display: none;
 
     }

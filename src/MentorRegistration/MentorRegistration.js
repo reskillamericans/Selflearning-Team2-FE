@@ -9,33 +9,33 @@ function MentorRegistration() {
     return (
         <>
         <Navbar1 />
-        <main>
-            <div className="container">
-                <div className="title_container">
-                    <img src={mlogo} alt="M logo" className="mlogo"/><span className="mentor-title"> Mentor Registration</span>
+        <div className="main">
+            <div className="mr_container">
+                <div className="mr_title_container">
+                    <img src={mlogo} alt="M logo" className="mlogo"/><span className="mr_mentor-title"> Mentor Registration</span>
                 </div>
                 <p className="provide-info">Please, provide the information below.</p>
                 <form action="#">
-                    <div className="mentor-details">
-                        <div className="input-box">
+                    <div className="mr_mentor-details">
+                        <div className="mr_input-box">
                             <span className="details">Full Name*</span>
                             <input type="text" required/>
                         </div>
-                        <div className="input-box">
+                        <div className="mr_input-box">
                             <span className="details">Email*</span>
                             <input type="email" required/>
                         </div>
-                        <div className="input-box">
+                        <div className="mr_input-box">
                             <span className="details">Phone Number</span>
                             <input type="tel" />
                         </div>
-                        <div className="input-box">
+                        <div className="mr_input-box">
                             <span className="details">Password*</span>
                             <input type="password" required/>
                         </div>
                     </div>
-                    <div className="button">
-                    <Link to="/selectcourses"><button className="register-btn" ><img src={user_icon } alt="small user icon"  className="user_icon" /> Register</button></Link>
+                    <div className="mr_button">
+                    <Link to="/selectcourses"><button className="mr_register-btn" ><img src={user_icon } alt="small user icon"  className="user_icon" /> Register</button></Link>
                     </div>
                     
                 </form>
@@ -47,7 +47,7 @@ function MentorRegistration() {
                 
             </div>
             
-        </main>
+        </div>
         </>
     )
 }

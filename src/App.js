@@ -1,5 +1,5 @@
 import './App.css';
-import Home from './LandingPage/Components/Home';
+import Landing from './LandingPage/Components/Landing';
 import Tutors from './LandingPage/Components/Tutors';
 import Courses from './LandingPage/Components/Courses';
 import About from './LandingPage/Components/AboutUs';
@@ -10,7 +10,8 @@ import Subjects from './StudentRegistration/component/Subjects'
 import Mentor from './StudentRegistration/component/Mentor'
 import Welldone from './StudentRegistration/component/Welldone'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import MentorRegistration from './MentorRegistration/MentorRegistration'
+import MentorRegistration from './MentorRegistration/MentorRegistration';
+import MentorSubjects from './MentorRegistration/MentorSubjects'
 import SelectCourses from './MentorRegistration/SelectCourses';
 import DaysAvailable from './MentorRegistration/DaysAvailable';
 import AllSet from './MentorRegistration/AllSet';
@@ -29,7 +30,7 @@ function App() {
     <Router>
       <>
         <Switch>
-          <Route exact path="/" component={Home} />
+          <Route exact path="/" component={Landing} />
           <Route exact path="/Registration"  component={Registration} /> 
           <Route exact path="/Jane"  component={Jane} />
           <Route exact path="/Course"  component={Course} />
@@ -41,7 +42,7 @@ function App() {
           <Route exact path="/about"  component={About} />
           <Route exact path="/mentor_registration" component={MentorRegistration} />
           <Route exact path="/selectcourses" component={SelectCourses} />
-          <Route exact path="/subjects" component={Subjects} />
+          <Route exact path="/mentor_subjects" component={MentorSubjects} />
           <Route exact path="/days_available" component={DaysAvailable} />
           <Route exact path="/all_set" component={AllSet} /> 
           <Route exact path="/channels" component={Channels} /> 

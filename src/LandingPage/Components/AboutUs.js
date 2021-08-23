@@ -1,11 +1,12 @@
 import React from "react";
 import "./AboutUs.css";
-import "./Navbar.js";
+import "./NavbarLP.js";
 import hands from "./pics/hands.png";
-import Navbar from "./Navbar.js";
+import Navbar from "./NavbarLP.js";
 import logo from "./pics/logo.png";
 import text from "./pics/text.png";
 import team from "./pics/team.png";
+import { Link } from "react-router-dom";
 
 function AboutUs() {
   return (
@@ -22,7 +23,11 @@ function AboutUs() {
         <img src={logo} alt="logo" className="logo5" />
         <img src={text} alt="about us " className="text" />
         <img src={team} alt="names of devs" className="team" />
+        <div className="back-to-homepage">
+        <Link to="/">Back to Homepage</Link>
+        </div>
       </div>
+      
     </div>
   );
 }

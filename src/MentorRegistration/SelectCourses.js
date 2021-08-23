@@ -1,5 +1,5 @@
 import React from 'react'
-import Nav from './Nav';
+import NavMR from './NavMR';
 import mlogo from './mlogo.png'
 import './SelectCourses.css';
 import courses from './courses.png';
@@ -8,9 +8,9 @@ import mobile_courses from './mobile_courses.png'
 function SelectCourses() {
     return (
         <>
-            <Nav />
-            <main>
-            <div className="mentor-container">
+            <NavMR />
+            <div className="main">
+            <div className="mr_mentor-container">
                 <div className="mentor-welcome-title">
                     <img src={mlogo} alt="M logo" className="mlogo"/><span className="mentor-welcome"> Welcome Mike!</span>
                 </div>
@@ -18,12 +18,12 @@ function SelectCourses() {
                 <div className="img-holder">
                     <img src={courses} alt="list of courses" className="courses-pic" /><img src={mobile_courses} alt="list of courses" className="mobile_courses-pic" />
                 </div>
-                <div className="button">
-                    <Link to="/subjects"><button className="select_courses_next-btn">Next</button></Link>
+                <div className="mr_button">
+                    <Link to="/mentor_subjects"><button className="select_courses_next-btn">Next</button></Link>
                 </div>
                 
             </div>
-            </main>
+            </div>
             
         </>
     )

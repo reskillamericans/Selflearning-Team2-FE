@@ -1,14 +1,10 @@
-.tut {
-  display: flex !important;
-}
-
 
 .tutors_container {
-  display: flex !important;
+  display: flex 
 }
 
 .tutors-left-side {
-  width: 635px;
+  width: 44%;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -23,12 +19,13 @@
   align-items: center;
   color: white;
   background-color: #180126;
-  width: 805px;
+  width: 56%;
   height: auto;
 }
 
 .group {
   margin-top: 90px;
+  height: auto;
 }
 
 .sign a {
@@ -51,17 +48,12 @@
   color: #cccccc;
 }
 
-element.style {
+
+
+.about-link a {
+  display: none;
 }
-.tutors-right-side {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  color: white;
-  background-color: #180126;
-  width: 805px;
-  /* /* height: auto; */
-}
+
 @media (max-width: 500px) {
   .tutors-right-side {
     display: flex;
@@ -75,5 +67,14 @@ element.style {
 
   .tutors-left-side {
     display: none;
+  }
+
+  .about-link a {
+    display: flex;
+    color: #cccccc;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 25px;
   }
 }

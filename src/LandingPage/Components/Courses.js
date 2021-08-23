@@ -1,7 +1,7 @@
 import React from "react";
 import "./Courses.css";
-import "./Navbar.js";
-import Navbar from "./Navbar.js";
+import "./NavbarLP.js";
+import Navbar from "./NavbarLP.js";
 import { Link } from "react-router-dom";
 import coursesgroup from "./pics/coursesgroup.png";
 import logo from "./pics/logo.png";
@@ -30,6 +30,9 @@ function Courses() {
             <Link to="/signin" className="signin">
               Sign In
             </Link>
+          </div>
+          <div className="about-link">
+            <Link to="/about">Learn more about us</Link>
           </div>
         </div>
       </div>
